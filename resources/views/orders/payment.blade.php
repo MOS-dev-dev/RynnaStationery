@@ -11,7 +11,7 @@
                         // Cấu hình ngân hàng mặc định (bạn có thể thay đổi sau)
                         $bank_id = 'vcb'; // Vietcombank
                         $account_no = '111111'; // Số tài khoản
-                        $account_name = 'CTY TNHH STATIONERY'; // Tên chủ tài khoản
+                        $account_name = 'RYNNA PET SHOP'; // Tên chủ tài khoản
                         $amount = $order->total_price;
                         $description = 'DH' . $order->id;
                         $qr_url = "https://img.vietqr.io/image/{$bank_id}-{$account_no}-compact2.png?amount={$amount}&addInfo={$description}&accountName=" . urlencode($account_name);

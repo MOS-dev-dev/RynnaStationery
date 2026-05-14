@@ -6,7 +6,7 @@
             <div class="flex shrink-0 items-center">
                 <a href="{{ route('home') }}" class="group flex items-center space-x-2">
                     <span class="text-2xl font-bold tracking-tighter text-sepia-600 italic group-hover:text-sepia-700 transition-colors">Rynna</span>
-                    <span class="text-2xl font-light text-earth-300 tracking-widest hidden md:inline group-hover:text-earth-400 transition-colors uppercase text-xs">Stationery</span>
+                    <span class="text-2xl font-light text-earth-300 tracking-widest hidden md:inline group-hover:text-earth-400 transition-colors uppercase text-xs">Pet Shop</span>
                 </a>
             </div>
 

@@ -5,7 +5,7 @@
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                 <span class="text-sepia-500 font-bold text-[10px] tracking-[0.5em] uppercase mb-4 block">Premium Catalog</span>
                 <h1 class="text-5xl md:text-6xl font-serif text-earth-900 tracking-tighter">Tất cả sản phẩm</h1>
-                <p class="mt-6 text-earth-400 max-w-2xl mx-auto font-medium italic">Khám phá bộ sưu tập văn phòng phẩm tinh tế, được tuyển chọn kỹ lưỡng cho không gian sáng tạo của bạn.</p>
+                <p class="mt-6 text-earth-400 max-w-2xl mx-auto font-medium italic">Khám phá bộ sưu tập phụ kiện thú cưng tinh tế, được tuyển chọn kỹ lưỡng cho người bạn bốn chân của bạn.</p>
             </div>
         </section>
 
@@ -69,7 +69,7 @@
                                     @if($imageUrl)
                                         <img src="{{ $imageUrl }}" alt="{{ $product->name }}" class="w-full h-full object-cover group-hover:scale-110 transition duration-1000">
                                     @else
-                                        <div class="w-full h-full flex items-center justify-center text-earth-100 italic tracking-[0.2em] font-medium text-[9px] uppercase font-bold">Rynna Stationery</div>
+                                        <div class="w-full h-full flex items-center justify-center text-earth-100 italic tracking-[0.2em] font-medium text-[9px] uppercase font-bold">Rynna Pet Shop</div>
                                     @endif
                                     
                                     @if($product->is_flash_sale)

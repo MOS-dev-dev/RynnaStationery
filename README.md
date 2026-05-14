@@ -1,10 +1,10 @@
-# Rynna Stationery
+# Rynna Pet Shop
 
-Rynna Stationery is a web application built with Laravel for managing a stationery shop. It includes features for product management, order processing, vouchers, and an AI-powered customer support chatbot.
+Rynna Pet Shop is a web application built with Laravel for managing a pet accessory shop. It includes features for product management, order processing, vouchers, and an AI-powered customer support chatbot.
 
 ## Features
 
-- **Product Management**: Browse and manage stationery products.
+- **Product Management**: Browse and manage pet accessories and supplies.
 - **Order System**: Process customer orders with status tracking.
 - **Voucher System**: Apply discounts to orders using vouchers.
 - **AI Chatbot**: Integrated customer support powered by Google Gemini AI.

@@ -1,6 +1,6 @@
 # Kiến trúc Hệ thống & Tài liệu Dữ liệu (Project Documentation)
 
-Tài liệu này cung cấp cái nhìn tổng quan về kiến trúc phần mềm, các mô hình dữ liệu (Models) và mối liên kết giữa chúng trong dự án Hệ thống Quản lý Văn phòng phẩm (The 2026 Stationery Muse).
+Tài liệu này cung cấp cái nhìn tổng quan về kiến trúc phần mềm, các mô hình dữ liệu (Models) và mối liên kết giữa chúng trong dự án Hệ thống Quản lý Phụ kiện Thú cưng (Rynna Pet Shop).
 
 ## 1. Công nghệ Sử dụng (Tech Stack)
 *   **Backend**: Laravel Framework (Phiên bản 9.x)
@@ -18,7 +18,7 @@ Hệ thống được xây dựng dựa trên các mô hình chính sau đây:
 
 ```mermaid
 graph LR
-    subgraph "Hệ thống Văn phòng phẩm (The Stationery Muse)"
+    subgraph "Hệ thống Phụ kiện Thú cưng (Rynna Pet Shop)"
         UC1(Xem sản phẩm & Flash Sale)
         UC2(Tìm kiếm & Lọc sản phẩm)
         UC3(Đặt hàng & Thanh toán)

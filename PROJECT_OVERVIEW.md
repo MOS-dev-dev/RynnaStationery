@@ -1,10 +1,10 @@
-# Tổng quan về dự án Rynna Stationery
+# Tổng quan về dự án Rynna Pet Shop
 
 ## 1. Giới thiệu dự án
-**Rynna Stationery** là một ứng dụng web thương mại điện tử chuyên cung cấp và quản lý các sản phẩm văn phòng phẩm. Hệ thống được xây dựng trên nền tảng Laravel (PHP) kết hợp với các công nghệ web hiện đại, hướng tới mục tiêu cung cấp trải nghiệm mua sắm trực tuyến thuận tiện cho khách hàng và bộ công cụ quản lý toàn diện cho người quản trị (Admin).
+**Rynna Pet Shop** là một ứng dụng web thương mại điện tử chuyên cung cấp và quản lý các sản phẩm phụ kiện thú cưng. Hệ thống được xây dựng trên nền tảng Laravel (PHP) kết hợp với các công nghệ web hiện đại, hướng tới mục tiêu cung cấp trải nghiệm mua sắm trực tuyến thuận tiện cho khách hàng và bộ công cụ quản lý toàn diện cho người quản trị (Admin).
 
 ## 2. Đối tượng sử dụng
-- **Khách hàng (Người mua):** Học sinh, sinh viên, nhân viên văn phòng hoặc bất kỳ ai có nhu cầu mua sắm văn phòng phẩm.
+- **Khách hàng (Người mua):** Những người nuôi thú cưng có nhu cầu mua sắm phụ kiện, đồ dùng cho thú cưng.
 - **Quản trị viên (Admin):** Chủ cửa hàng, nhân viên quản lý kho, nhân viên chăm sóc khách hàng.
 
 ## 3. Các tính năng chính (Nội dung cốt lõi)
