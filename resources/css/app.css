@@ -1,1 +1,171 @@
-@tailwind base;@tailwind components;@tailwind utilities;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Rynna Pet Shop Custom Styles */
+:root {
+    --color-primary: #d4a574;
+    --color-secondary: #8b7355;
+    --color-accent: #c9a66b;
+    --color-bg-light: #f5f1e8;
+    --color-text-dark: #2c1810;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--color-bg-light);
+    color: var(--color-text-dark);
+}
+
+/* Pet-themed gradients */
+.pet-gradient {
+    background: linear-gradient(135deg, #d4a574 0%, #c9a66b 100%);
+}
+
+/* Product card hover effects */
+.product-card {
+    transition: all 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Flash sale badge */
+.flash-sale-badge {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.7;
+    }
+}
+
+/* Cart animations */
+.cart-item-enter {
+    animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Button styles */
+.btn-primary {
+    @apply bg-amber-600 hover:bg-amber-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-200;
+}
+
+.btn-secondary {
+    @apply bg-stone-500 hover:bg-stone-600 text-white font-semibold py-2 px-4 rounded-lg transition duration-200;
+}
+
+/* Navigation */
+.nav-link {
+    @apply text-stone-600 hover:text-amber-600 transition duration-200;
+}
+
+/* Form inputs */
+.form-input {
+    @apply border-stone-300 focus:border-amber-500 focus:ring-amber-500 rounded-md shadow-sm;
+}
+
+/* Admin dashboard cards */
+.dashboard-card {
+    @apply bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-200;
+}
+
+/* Order status badges */
+.status-pending {
+    @apply bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm font-medium;
+}
+
+.status-processing {
+    @apply bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium;
+}
+
+.status-shipped {
+    @apply bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium;
+}
+
+.status-delivered {
+    @apply bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium;
+}
+
+.status-cancelled {
+    @apply bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-medium;
+}
+
+/* Chat widget */
+.chat-widget {
+    @apply fixed bottom-4 right-4 w-80 bg-white rounded-lg shadow-xl z-50;
+}
+
+.chat-header {
+    @apply bg-amber-600 text-white p-4 rounded-t-lg cursor-pointer;
+}
+
+.chat-body {
+    @apply p-4 h-96 overflow-y-auto;
+}
+
+.chat-input {
+    @apply border-t p-4;
+}
+
+/* Responsive utilities */
+@media (max-width: 768px) {
+    .mobile-menu {
+        @apply hidden;
+    }
+    
+    .mobile-menu.active {
+        @apply block;
+    }
+}
+
+/* Loading spinner */
+.spinner {
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid var(--color-primary);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Toast notifications */
+.toast {
+    @apply fixed top-4 right-4 bg-white shadow-lg rounded-lg p-4 z-50 animate-slide-in-right;
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.animate-slide-in-right {
+    animation: slideInRight 0.3s ease-out;
+}
